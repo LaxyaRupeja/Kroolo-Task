@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useEffect, useState } from 'react';
-import { ReactFlow, useNodesState, useEdgesState, Background, type Node, MarkerType, Position, Handle, Connection } from '@xyflow/react';
+import React, {  useState } from 'react';
+import { ReactFlow, useNodesState, useEdgesState, Background, type Node, Position, Handle, Connection } from '@xyflow/react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
